@@ -1,4 +1,4 @@
-# Python_DataAnalysis_Drug_Consumption
+# Python DataAnalysis Drug Consumption
 
 # Task
 * Data visualization
@@ -23,16 +23,3 @@ Use the scikit-learn library, use different algorithms, different hyper paramete
 Make train set and test set, scale the data, plot confusion matrix of the prediction, compare accurancy.
 
 Models used : Logistic regression, Linear SVC, Random forest classifier, Decision Tree classifier, and KNN.
-
-# Flask API
-Transformation of the model into flask API, using the logistic model as example.
-
-Save the model as pickle file, so that later to use it and call the predict function to get a prediction for the new input data. When running the logistic_api.py it first loads the created logistic pickle file. Predictions are made by passing a post JSON request to the created Flask web server which is on port 5000 by default. In logistic_api.py this request is received and a prediction is based on the already loaded prediction function of the model. It returns the prediction in JSON format.
-
-Test example :
-
-Send Post [[0.96082,-0.31685,-0.46725,0.80523,-0.84732,-1.01450,-1.37983,0.40148,0,0,0,3,4,0,0,0,0,0,0,0,1,0,0,0]] we got a prediction of class 1 as output of the model.
-
-Send Post [[0.24923,-0.31685,-0.67825,-0.30033,-1.55521,1.63088,-1.37983,-1.54858,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]] we got a prediction of class 0 as output of the model.
-
-This API can be easily used by other people to use the machine learning model to get the results.

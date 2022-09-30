@@ -1,6 +1,6 @@
-# Python DataAnalysis Drug Consumption
+# Data Analysis on Drug Consumption using Python  ⚕️
 
-# Task
+# Objectives: 
 * Data visualization
 * Data cleaning
 * Modeling

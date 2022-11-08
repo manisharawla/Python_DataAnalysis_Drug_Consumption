@@ -4,7 +4,6 @@
 * Data visualization
 * Data cleaning
 * Modeling
-* Flask API
 
 # Problem
 Use given attributes to predict the drug consumption situation. Use binary classification by union of part of classes into one new class. "Never Used" and "Used over a Decade Ago" form class "Non-user" and all other classes form class "User".
